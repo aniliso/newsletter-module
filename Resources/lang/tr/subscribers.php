@@ -1,26 +1,28 @@
 <?php
 
 return [
-    'list resource' => 'Abone Listele',
-    'create resource' => 'Abone Ekle',
-    'edit resource' => 'Abone Düzenle',
+    'list resource'    => 'Abone Listele',
+    'create resource'  => 'Abone Ekle',
+    'edit resource'    => 'Abone Düzenle',
     'destroy resource' => 'Abone Sil',
-    'title' => [
-        'subscribers' => 'Aboneler',
+    'title'            => [
+        'subscribers'       => 'Aboneler',
         'create subscriber' => 'Abone Ekle',
-        'edit subscriber' => 'Abone Düzenle',
+        'edit subscriber'   => 'Abone Düzenle',
     ],
-    'button' => [
+    'button'           => [
         'create subscriber' => 'Abone Ekle',
     ],
-    'table' => [
+    'table'            => [
     ],
-    'form' => [
+    'form'             => [
+        'name'  => 'Adınız',
+        'email' => 'E-Posta'
     ],
-    'messages' => [
+    'messages'         => [
         'subscriber already registered' => 'E-posta sistemde kayıtlıdır.',
-        'subscriber success' => 'Üye olduğunuz için teşekkür ederiz.'
+        'subscriber success'            => 'Üye olduğunuz için teşekkür ederiz.'
     ],
-    'validation' => [
+    'validation'       => [
     ],
 ];

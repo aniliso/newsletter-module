@@ -16,6 +16,11 @@ class CreateSubscriberRequest extends BaseFormRequest
         ];
     }
 
+    public function attributes()
+    {
+        return trans('newsletter::subscribers.form');
+    }
+
     public function translationRules()
     {
         return [];
