@@ -10,10 +10,7 @@ class CreateSubscriberRequest extends BaseFormRequest
 
     public function rules()
     {
-        return [
-            'email' => 'required',
-            'name'  => 'required'
-        ];
+        return config('asgard.newsletter.config.rules');
     }
 
     public function attributes()
